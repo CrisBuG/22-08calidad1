@@ -7,7 +7,7 @@ def mostrar_menu():
     print("    CALCULADORA DE HIPOTENUSA")
     print("="*50)
     print("Calcula la hipotenusa usando el teorema de Pitágoras")
-    print("Fórmula: c = √(a² + b²)")
+    print("Formula: c = sqrt(a^2 + b^2)")
     print("="*50)
 
 def obtener_catetos():
@@ -36,8 +36,8 @@ def mostrar_resultado(cateto_a, cateto_b, hipotenusa):
     print(f"Cateto B: {cateto_b}")
     print(f"Hipotenusa: {hipotenusa:.4f}")
     print("-"*40)
-    print(f"Verificación: {cateto_a}² + {cateto_b}² = {cateto_a**2} + {cateto_b**2} = {cateto_a**2 + cateto_b**2}")
-    print(f"√{cateto_a**2 + cateto_b**2} = {hipotenusa:.4f}")
+    print(f"Verificacion: {cateto_a}^2 + {cateto_b}^2 = {cateto_a**2} + {cateto_b**2} = {cateto_a**2 + cateto_b**2}")
+    print(f"sqrt({cateto_a**2 + cateto_b**2}) = {hipotenusa:.4f}")
     print("-"*40)
 
 def main():
